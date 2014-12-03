@@ -1,0 +1,16 @@
+{View} = require 'atom-space-pen-views'
+
+module.exports =
+class __PackageName__View extends View
+  @content: ->
+    @div class: '__package-name__', =>
+      @div class: 'message', "The __PackageName__ package is Alive! It's ALIVE!"
+
+  initialize: (serializeState) ->
+
+  # Returns an object that can be retrieved when package is activated
+  serialize: ->
+
+  # Tear down any state and detach
+  destroy: ->
+    @element.remove()
