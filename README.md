@@ -2,7 +2,7 @@
 
 This provides a set of templates for `apm init` to generate a new Atom package using space-pen as the view system.
 
-![screen shot 2014-12-03 at 2 45 25 pm](https://cloud.githubusercontent.com/assets/69169/5290378/150beeee-7afb-11e4-8d76-6a42575fe03f.png
+![screen shot 2014-12-03 at 2 45 25 pm](https://cloud.githubusercontent.com/assets/69169/5290378/150beeee-7afb-11e4-8d76-6a42575fe03f.png)
 
 These templates are an alternative to a package generated in atom via the `package-generator:generate-package` command, substituting space-pen in for manual DOM manipulation.
 
@@ -12,7 +12,7 @@ You supply the templates in the `templates` dir to `apm init`
 
 ```
 git clone git@github.com:atom/space-pen-example-templates.git
-apm init -p my-package-name --template space-pen-example/templates
+apm init -p my-package-name --template space-pen-example-templates/templates
 ```
 
 Now you should have a new package in the `my-package-name` directory. Now you can link it and see it in action
