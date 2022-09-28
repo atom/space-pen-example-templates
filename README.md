@@ -1,4 +1,5 @@
-# space-pen-example Templates
+##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
+ # space-pen-example Templates
 
 This provides a set of templates for `apm init` to generate a new Atom package using space-pen as the view system.
 
